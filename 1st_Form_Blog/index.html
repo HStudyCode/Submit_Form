@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Comment</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+
+
+    <div class="form-container">
+
+        <h2>Contact Us</h2>
+        <!-- for submitted data send to owner email -->
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+
+            <input type="hidden" name="access_key" value="fd7fa6db-d076-4354-ac91-06a4280b5e82">
+
+
+            <label for="name">Name:</label>
+
+            <input type="text" id="name" name="name" required>
+                        
+            <label for="email">Email:</label>
+
+            <input type="email" id="email" name="email" required>
+            
+            <label for="comments">Comments:</label>
+
+            <textarea id="comments" name="comments" required></textarea>
+            
+            <button type="submit">Submit</button>
+
+        </form>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
